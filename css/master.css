@@ -1,0 +1,43 @@
+.wrapper {
+    margin:0 auto;
+    width:960px;
+    background:#EFEFEF;
+}
+
+.rotateObj {
+    height:150px;
+}
+
+.rotateObj h1 {
+    position:relative;
+    background:gray;
+    width:50px;
+    height:100%;
+    border-radius:5px;
+    -moz-border-radius:5px;
+}
+
+.rotateObj h1 span {
+    width:150px; /* same as height of .rotateObj */
+    -webkit-transform-origin:80px 75px;
+    display:inline-block;
+    -webkit-transform:rotate(-90deg);
+    text-align:center;
+}
+
+.rotateObj #runner {
+    background:red;
+    float:left;
+}
+
+.rotateObj #corp {
+    background:blue;
+    float:right;
+}
+
+.rotateObj .content {
+    float:left;
+    width:250px;
+    height:100%;
+    padding:20px;
+}
